@@ -35,7 +35,6 @@ public class ClienteRepository {
         } catch (IOException e) {
             System.out.println("❌ Erro ao ler o arquivo: " + e.getMessage());
         }
-
         return clientes;
     }
 
